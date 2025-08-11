@@ -1,15 +1,32 @@
-# Findoc Fullstack App
 
-A fullstack MERN (MongoDB, Express, React, Node.js) application with authentication (login/register) and an image gallery. The backend uses a clean MVC structure and JWT authentication. The frontend is built with React (Vite) and Tailwind CSS.
+# Findoc Fullstack App (MERN)
+
+**Live Application:** [https://findoc-services.vercel.app/](https://findoc-services.vercel.app/)
+
+This project was built as a solution to the Findoc Gurugram assignment, which required a login and home screen with validation, API integration, and image display. Instead of Flutter, I implemented a robust fullstack MERN (MongoDB, Express, React, Node.js) application, focusing on scalable architecture, modern UI, and secure authentication.
+
+---
+
+## Assignment Context
+The original assignment required a Flutter app with BLoC state management, login validation, and image fetching from https://picsum.photos/. I delivered a production-ready MERN stack web application with:
+- Secure login/register (JWT-based authentication)
+- Form validation (email & password rules as per assignment)
+- Protected image gallery (fetches and displays images from backend)
+- Modern, responsive UI (React + Tailwind CSS)
+- Clean MVC backend structure (Node.js/Express)
+
+---
 
 ---
 
 ## Features
-- User registration and login (JWT-based authentication)
+- User registration and login (JWT-based authentication, with validation)
 - Protected image gallery (upload/view images)
-- Clean MVC backend structure
-- React frontend with Tailwind CSS
+- Clean MVC backend structure (Node.js/Express)
+- React frontend with Vite and Tailwind CSS
 - RESTful API
+- Responsive and modern UI
+- Live deployment ([Vercel link](https://findoc-services.vercel.app/))
 
 ---
 
@@ -80,15 +97,17 @@ npm run dev            # Starts frontend on http://localhost:5173
 ---
 
 ## Usage
-- Register a new user or login with existing credentials.
+- Register a new user or use the demo credentials:
+	- Email: `test@gmail.com`
+	- Password: `Test123!`
 - Access the dashboard to view/upload images (protected route).
 - Logout to end your session.
 
 ---
 
 ## Deployment
-- Backend can be deployed to Render, Heroku, or any Node.js host.
-- Frontend can be deployed to Vercel, Netlify, or any static host.
+- Backend: Deployable to Render, Heroku, or any Node.js host.
+- Frontend: Deployed live on Vercel ([https://findoc-services.vercel.app/](https://findoc-services.vercel.app/)).
 
 ---
 
@@ -113,3 +132,6 @@ MIT
 
 ## Author
 - [Mohit Kumar](https://github.com/Mohit-kumar123)
+
+---
+
