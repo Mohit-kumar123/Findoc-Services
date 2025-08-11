@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHhB4wZg.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHhB4wZg.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat-Regular', sans-serif;
+  background-color: #f7fafc;
+}
