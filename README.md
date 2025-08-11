@@ -112,4 +112,4 @@ MIT
 ---
 
 ## Author
-- [Your Name](https://github.com/Mohit-kumar123)
+- [Mohit Kumar](https://github.com/Mohit-kumar123)
